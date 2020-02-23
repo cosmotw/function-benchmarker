@@ -1,9 +1,9 @@
 {
   "name": "@cosmotw/function-benchmarker",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "license": "MIT",
-  "private": true,
+  "author": "Cosmo Chang <shooliss@gmail.com>",
   "devDependencies": {
     "jest": "^25.1.0",
     "rollup": "^1.31.1",
@@ -13,5 +13,27 @@
     "dev": "rollup -c -w",
     "build": "rm -rf dist/ && rollup -c",
     "test": "jest"
-  }
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmotw/function-benchmarker"
+  },
+  "homepage": "https://github.com/cosmotw/function-benchmarker",
+  "bugs": {
+    "url": "https://github.com/cosmotw/function-benchmarker/issues"
+  },
+  "keywords": [
+    "performance",
+    "benchmark",
+    "evaluation",
+    "speed",
+    "timer"
+  ]
 }
