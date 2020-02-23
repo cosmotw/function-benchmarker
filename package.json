@@ -1,0 +1,17 @@
+{
+  "name": "@cosmotw/function-benchmarker",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "rollup": "^1.31.1",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rm -rf dist/ && rollup -c",
+    "test": "jest"
+  }
+}
