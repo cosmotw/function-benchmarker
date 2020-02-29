@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/cosmotw/function-benchmarker/badge.svg?branch=master)](https://coveralls.io/github/cosmotw/function-benchmarker?branch=master)
