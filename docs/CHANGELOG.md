@@ -1,5 +1,12 @@
 This is Title
 
+# [1.2.0](https://github.com/cosmotw/function-benchmarker/compare/v1.1.1...v1.2.0) (2020-02-29)
+
+
+### Features
+
+* integrate coveralls ([d23d1f2](https://github.com/cosmotw/function-benchmarker/commit/d23d1f2d6d14ac5943ba5f9d8515e6fc273009b0))
+
 ## [1.1.1](https://github.com/cosmotw/function-benchmarker/compare/v1.1.0...v1.1.1) (2020-02-29)
 
 
